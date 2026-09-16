@@ -329,6 +329,8 @@ section {
   font-size: clamp(14px, 3vw, 20px);
   letter-spacing: .04em;
 }
+.footer__line a { color: inherit; border-bottom-color: transparent; }
+.footer__line a:hover { color: var(--pink); border-bottom-color: var(--pink); }
 .footer__meta { margin: 10px 0 0; font-size: 12px; color: var(--muted); }
 .footer__meta .hl { color: var(--pink); }
 
