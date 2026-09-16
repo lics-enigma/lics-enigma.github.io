@@ -1,0 +1,14 @@
+/* HUMANO */
+    Você leu o robots.txt e veio parar aqui. É esse o tipo de
+    leitura que resolver um enigma pede.
+
+/* SITE */
+    Linguagem: pt-BR
+    Stack: HTML, CSS e JavaScript.
+    Hospedagem: GitHub Pages
+
+/* CAMINHO */
+    Site no GitHub Pages mora em <nome>.github.io
+    O mesmo <nome> existe em github.com/<nome>
+    Lá tem repositórios públicos.
+    Em um deles tem um arquivo cujo conteúdo parece aleatório.

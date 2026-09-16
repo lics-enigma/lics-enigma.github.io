@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LICS ENIGMA</title>
+<meta name="description" content="N3M TUD0 QU3 3574 0CU170 P3RMAN3C3 35C0ND1D0.">
+<meta name="theme-color" content="#071727">
+<meta property="og:title" content="LICS ENIGMA">
+<meta property="og:description" content="N3M TUD0 QU3 3574 0CU170 P3RMAN3C3 35C0ND1D0.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!--
+   ========================================================================
+   Você abriu o código-fonte. Metade das pessoas nunca faz isso.
+
+   Não adianta procurar aqui, o segredo não está neste arquivo.
+   O que está aqui é o caminho:
+
+   0x01  esta página precisa de alguém pra hospedar de graça
+   0x02  o endereço no alto do navegador tem um nome dentro
+   0x03  esse nome existe fora do .github.io também
+   0x04  um arquivo lá só tem letras, números e um = no fim
+
+   /robots.txt   /humans.txt
+   ========================================================================
+-->
+</head>
+<body>
+
+<div class="scanlines" aria-hidden="true"></div>
+<div class="glow" aria-hidden="true"></div>
+
+<main>
+
+  <!-- ====================== HERO ====================== -->
+  <section class="hero">
+    <div class="deco deco--tl" aria-hidden="true">
+      <svg viewBox="0 0 220 160" fill="none" stroke="#f3b5d4" stroke-width="1.5">
+        <circle cx="30" cy="18" r="9" fill="#f3b5d4" stroke="none"/>
+        <path d="M30 27v58l-20 20"/>
+        <path d="M4 120 14 102l10 18z" stroke-linejoin="round"/>
+        <path d="M30 18h150l30 30"/>
+      </svg>
+    </div>
+
+    <p class="kicker">--L1C5 4PR353N74--</p>
+
+    <h1 class="wordmark">
+      <span class="wordmark__line">LICS</span>
+      <span class="wordmark__line">ENIGMA</span>
+    </h1>
+
+    <p class="cipherline" aria-hidden="true">1MihMK1H3lk1JRN8p8vw+mTeYYOjhzkg2Uv0oiwa2Tgf</p>
+
+    <div class="falcon" aria-hidden="true">
+      <svg viewBox="61 136.6 54.2 48.8"><path fill="currentColor" d="m 104.23411,184.9156 c 0,0 -3.99999,-7.05282 -3.99999,-19.18875 0,-12.13593 9.31785,-13.83252 3.99999,-4.6217 h 10.46091 c 0,-10.31717 0.3915,-15.21673 -13.50452,-15.21673 -0.24648,0 0.15649,-3.47845 13.37436,0.0632 v -8.49865 c 0,0 -17.615092,-0.71776 -23.000561,0 -5.47431,0.72963 -8.031684,7.00964 -12.669804,10.5649 -5.788188,4.43684 -17.26785,-1.84289 -17.26785,13.43573 0,12.9829 -1.750502,-1.29286 15.185372,3.24509 8.123831,2.17678 2.082478,20.04305 2.082478,20.04305 z"/></svg>
+    </div>
+  </section>
+
+  <!-- ====================== BLOCO CIFRADO ====================== -->
+  <section class="cipher" id="cipher">
+    <p class="symbols" aria-hidden="true"><span>#</span><span>$</span><span>*</span><span>!</span><span>@</span><span>&amp;</span><span>%</span></p>
+
+    <h2 class="cipher__title" aria-label="Conteúdo cifrado">
+      <span class="scramble" data-len="4" aria-hidden="true">····</span>
+      <span class="scramble" data-len="3" aria-hidden="true">···</span>
+      <span class="scramble" data-len="5" aria-hidden="true">·····</span>
+    </h2>
+
+    <p class="cipher__sub">Sistemas têm falhas<br>nós temos as respostas</p>
+
+    <div class="stream" id="stream">
+      <ul class="stream__cells" aria-hidden="true">
+        <li><strong data-cell="0">··</strong><span>0x00</span></li>
+        <li><strong data-cell="1">··</strong><span>0x08</span></li>
+        <li><strong data-cell="2">··</strong><span>0x10</span></li>
+        <li><strong data-cell="3">··</strong><span>0x18</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====================== O ENIGMA ====================== -->
+  <section class="enigma" id="enigma">
+    <h2 class="section-title">Tem uma mensagem escondida</h2>
+    <p class="enigma__lead">
+      Não está nesta página. Aqui só tem o caminho até ela: público, aberto,
+      sem senha nenhuma. A maior parte das pessoas desiste antes do fim.
+    </p>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal__bar" aria-hidden="true">
+        <i></i><i></i><i></i>
+        <span>~/lics-enigma/pistas</span>
+      </div>
+      <div class="terminal__body">
+        <p class="line"><span class="prompt">lics@enigma:~$</span> cat enigma.txt</p>
+        <p class="line out">N3M TUD0 QU3 3574 0CU170 P3RMAN3C3 35C0ND1D0.</p>
+        <p class="line out dim">arquivo não encontrado. procure em quem publicou isto.</p>
+        <p class="line"><span class="prompt">lics@enigma:~$</span> <span class="typed" id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+
+        <div class="hints" id="hints" hidden>
+          <p class="line out hint"><span class="tag">[0x01]</span> página estática não se hospeda sozinha. alguém faz isso de graça.</p>
+          <p class="line out hint"><span class="tag">[0x02]</span> olhe o endereço no alto do navegador. tem um nome dentro dele.</p>
+          <p class="line out hint"><span class="tag">[0x03]</span> esse nome existe fora do .github.io também. vira um perfil.</p>
+          <p class="line out hint"><span class="tag">[0x04]</span> um arquivo lá só tem letras, números, + e /, e acaba em =. procure o nome disso.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn" id="hintBtn" type="button">Liberar próxima pista</button>
+    <p class="enigma__foot">Não precisa de ferramenta nenhuma. Precisa prestar atenção.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__mark" aria-hidden="true">
+    <svg viewBox="61 136.6 54.2 48.8"><path fill="currentColor" d="m 104.23411,184.9156 c 0,0 -3.99999,-7.05282 -3.99999,-19.18875 0,-12.13593 9.31785,-13.83252 3.99999,-4.6217 h 10.46091 c 0,-10.31717 0.3915,-15.21673 -13.50452,-15.21673 -0.24648,0 0.15649,-3.47845 13.37436,0.0632 v -8.49865 c 0,0 -17.615092,-0.71776 -23.000561,0 -5.47431,0.72963 -8.031684,7.00964 -12.669804,10.5649 -5.788188,4.43684 -17.26785,-1.84289 -17.26785,13.43573 0,12.9829 -1.750502,-1.29286 15.185372,3.24509 8.123831,2.17678 2.082478,20.04305 2.082478,20.04305 z"/></svg>
+  </div>
+  <p class="footer__line">LICS ENIGMA</p>
+  <p class="footer__meta">
+    Página estática servida por <span class="hl">GitHub Pages</span> ·
+    <a href="https://www.lics.tec.br/pt-br/" target="_blank" rel="noopener">LICS</a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
